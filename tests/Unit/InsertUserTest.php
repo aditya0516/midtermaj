@@ -15,7 +15,7 @@ class InsertUserTest extends TestCase
      */
     public function testInsertUser()
     {
-        $user  = new User();
+       $user  = new User();
         $user->name='suzy';
         $user->email='suzy@abc.com' ;
         $user->password='asdfghjkl';
